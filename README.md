@@ -49,9 +49,9 @@ Welcome to my Natural Language Processing (NLP) Projects Repository! This collec
   - Model Training
   - Evaluation & Performance Metrics
 
-🔍 Conclusion: CountVectorizer Outperform TF-IDF in Language Detection
-why?
+🔍 Outcome: CountVectorizer Outperform TF-IDF in Language Detection
 
+why?
 - Language detection focus on detecting common features of an language, rather than some important features. 
 - CountVectorizer is better to capture patterns in certain language like:
    - Common words: "el", "de", "la" (Spanish); "le", "de", "la" (French).
