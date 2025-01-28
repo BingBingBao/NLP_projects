@@ -4,25 +4,50 @@ Welcome to my Natural Language Processing (NLP) Projects Repository! This collec
 
 📌 Key Features
 
-✔️ Covers both traditional NLP techniques (TF-IDF, Cosine Similarity) and modern deep learning-based methods (Word Embeddings, FastText).
+✔️ Covers text processing, sentiment analysis, document similarity, and classification.
 
-✔️ Uses real-world text datasets to build document similarity models.
+✔️ Uses real-world text datasets for building NLP applications.
 
-✔️ Implements text feature engineering, similarity computation, and NLP-based recommendation systems.
+✔️ Implements TF-IDF, Word Embeddings, FastText, and Machine Learning Models.
 
-✔️ FastText embeddings applied for better semantic understanding.
+✔️ Deep learning techniques applied in sentiment analysis and recommendation systems.
 
 # 📂 Project Overview
 
-## 1. Movie Recommendation System using Document Similarity 
+## 1. Sentiment Analysis on Movie Reviews
+
+📌 Objective: Classify movie reviews as positive or negative using Natural Language Processing (NLP) techniques.
+
+🔹 Models Used
+  - Convolutional Neural Networks (CNNs) – Leverages convolutional filters to capture local patterns in text.
+  - Recurrent Neural Networks (RNNs) – Designed for sequential data processing:
+  - GRU (Gated Recurrent Units) – Efficiently captures sequential dependencies with fewer parameters.
+  - LSTM (Long Short-Term Memory) – Captures long-term dependencies in text sequences.
+  - Stacked LSTM – A multi-layered LSTM model for learning hierarchical representations.
+
+🔗 File: 1_NLP_Movie_Review_Sentiment_Analysis.ipynb
+
+## 2. Movie Recommendation System using Document Similarity
 
 📌 Objective: Build a content-based movie recommendation system by analyzing movie descriptions and finding similar movies using text similarity techniques.
 
 🔹 Methods Used:
-  - TF-IDF (Term Frequency-Inverse Document Frequency) for feature extraction.
-  - Cosine Similarity to compute document similarity.
-  - Pairwise Document Similarity for movie recommendations.
+  - TF-IDF for text vectorization.
+  - Cosine Similarity to measure similarity between movie descriptions.
+  - Pairwise Document Similarity for recommendation generation.
 
-✔️ Outcome: A content-based recommender that suggests similar movies based on descriptions.
+✔️ Outcome: A content-based recommender system that suggests similar movies based on textual similarity.
 
-🔗 Folder: Movie_Recommendation_TF-IDF/
+🔗 File: 2_NLP_Movie_Recommendation_System.ipynb
+
+## 3.  Language Detector
+
+🔹 Introduction: Language detection is a fundamental task in Natural Language Processing (NLP), aimed at identifying the language of a given text. This project builds a machine learning-based language detection model to classify text into multiple languages.
+
+🔹 Methodology
+  - Text Preprocessing
+  - Model Training
+  - Evaluation & Performance Metrics
+  - 
+🔗 Folder: NLP_Language_Detector/
+
