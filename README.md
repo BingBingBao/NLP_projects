@@ -1,4 +1,4 @@
-# Natural Language Processing (NLP) Projects Repository 🗣
+# Natural Language Processing (NLP) Projects Repository
 
 Welcome to my Natural Language Processing (NLP) Projects Repository! This collection includes various NLP techniques, focusing on text preprocessing, document similarity, embeddings, and recommendation systems. Each project is implemented in Jupyter Notebooks, covering data preprocessing, feature extraction, model training, and evaluation.
 
